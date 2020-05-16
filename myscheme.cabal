@@ -14,7 +14,7 @@ bug-reports:    https://github.com/markxnelson/myscheme/issues
 author:         Mark Nelson
 maintainer:     mark.x.nelson@gmail.com
 copyright:      2020 Mark nelson
-license:        none
+license:        OtherLicense
 build-type:     Simple
 extra-source-files:
     README.md
@@ -45,6 +45,7 @@ executable myscheme-exe
   build-depends:
       base >=4.7 && <5
     , myscheme
+    , parsec
   default-language: Haskell2010
 
 test-suite myscheme-test
